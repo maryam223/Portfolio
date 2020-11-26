@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+	font-family: Arial;
+}
+
+h1 {
+  font-family: Satisfy;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+h3 {
+  color: #8b5a50;
+}
+
+p {
+  color: #5a5a5a;
+  font-family: Arial;
+}
+
+a {
+  color: #8b5a50;
+  text-decoration: none;
+}
+
+header{
+	background-color: #ffffff;
+	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+	display: flex;
+	justify-content: space-between;
+	position: sticky;
+	top: 0;
+}
+
+#initiales{
+	font-size: 22px;
+	margin-left: 100px;
+}
+
+#menu ul{
+	font-family: Arial;
+	list-style-type: none;
+	display: flex;
+	margin-right: 100px;
+}
+
+#menu li{
+	margin-right: 35px;
+}
+
+.nav a{
+	text-decoration: none;
+	color: #5a5a5a;
+  	padding: 10px 0px 10px 20px;
+  	font-size: 12px;
+  	text-transform: uppercase;
+}
+
+.nav a:hover{
+	transition-duration: 250ms;
+	background: #f2eae8;
+	padding-left: 2px;
+}
+
+#accueil{
+	display: inline-flex;
+	height: 575px;
+	margin-top: 50px;
+}
+
+#presentation {
+	padding-left: 20px;
+}
+
+#presentation h3{
+	font-family: Arial;
+	font-size: 25px;
+	margin-top: -28px;
+}
+
+#presentation h6{
+	font-family: Arial;
+	font-size: 16px;
+	margin-top: -16px;
+}
+
+#presentation p{
+	line-height: 26px;
+}
+
+button {
+  background: #ffffff;
+  color: #8b5a50;
+  padding: 10px 20px;
+  border: 1px solid #8b5a50;
+  text-transform: uppercase;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+button:hover {
+  color: #ffffff;
+  border: 1px solid #5a5a5a;
+  background-color: #d5bbb6;
+}
+
+#apropos{
+	background: #ececec;
+	font-family: Arial;
+}
+
+#apropos h3{
+	text-align: center;
+	font-size: 28px;
+	padding-top: 15px;
+}
+
+#apropos ul{
+	list-style-image: url("img/checkmark.png");
+	font-weight: bold;
+	
+}
+
+#skills{
+	display: flex;
+	justify-content: space-around;
+}
+
+#apropos ul li{
+	padding-bottom: 20px;
+
+}
+
+#realisations{
+	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+#realisations h3{
+	text-align: center;
+	font-size: 28px;
+	padding-top: 15px;
+}
+
+#realisations p{
+  border-left: 5px solid #ececec;
+  padding-left: 10px;
+  font-size: 12px;
+
+}
+
+#realisations img {
+  max-width: 100%;
+}
+
+#realisations h6 a {
+  color: #5a5a5a;
+  font-size: 16px;
+}
+
+#projet{
+	margin-left: 100px;
+	margin-right: 100px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.real{
+	padding-right: 40px;
+	width: 350px;
+	line-height: 20px;
+}
+
+#contact{
+	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  	background: #f2eae8;
+  	display: flex;
+  	justify-content: space-around;
+}
+
+#contact img{
+	width: 40px;
+  	padding-top: 20px;
+  	padding-bottom: -35px;
+
+}
+
+#contact h6{
+	font-size: 14px;
+	margin-top: 10px;	
+	margin-bottom: 10px;
+}
